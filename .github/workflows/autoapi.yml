@@ -9,8 +9,8 @@ on:
     - 'v*'
   #  branches: 
   #    - master
-  schedule:
-    - cron: '38 */6 * * *'
+  #schedule:
+  #  - cron: '38 */6 * * *'
   watch:
     types: [started]
   #workflow_dispatch:
